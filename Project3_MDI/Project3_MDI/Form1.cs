@@ -1,8 +1,8 @@
 namespace Project3_MDI
 {
-    public partial class Form1 : Form
+    public partial class Parent : Form
     {
-        public Form1()
+        public Parent()
         {
             InitializeComponent();
         }
