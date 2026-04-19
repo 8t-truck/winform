@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.14.37027.9 d17.14
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinFormsApp1", "WinFormsApp1\WinFormsApp1.csproj", "{242F5D8E-B6A7-46CF-9974-FE3C201912B5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project1_timer", "Project1_timer\Project1_timer.csproj", "{E17B6EAF-B96C-4DFF-B329-176DF4B9CFB1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{242F5D8E-B6A7-46CF-9974-FE3C201912B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{242F5D8E-B6A7-46CF-9974-FE3C201912B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{242F5D8E-B6A7-46CF-9974-FE3C201912B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{242F5D8E-B6A7-46CF-9974-FE3C201912B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E17B6EAF-B96C-4DFF-B329-176DF4B9CFB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E17B6EAF-B96C-4DFF-B329-176DF4B9CFB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E17B6EAF-B96C-4DFF-B329-176DF4B9CFB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E17B6EAF-B96C-4DFF-B329-176DF4B9CFB1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {C036094E-C5A4-4713-B710-D603E31F0403}
+		SolutionGuid = {AB94C44C-E52A-4574-8C66-7CFDF76F5529}
 	EndGlobalSection
 EndGlobal
