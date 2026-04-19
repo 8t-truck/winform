@@ -6,5 +6,10 @@ namespace Project3_MDI
         {
             InitializeComponent();
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
