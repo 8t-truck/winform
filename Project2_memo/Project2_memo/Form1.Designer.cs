@@ -35,19 +35,19 @@
             tsmiOpen = new ToolStripMenuItem();
             tsmiSave = new ToolStripMenuItem();
             tsmiSaveAs = new ToolStripMenuItem();
-            끝내기ToolStripMenuItem = new ToolStripMenuItem();
+            tsmiExit = new ToolStripMenuItem();
             편집ToolStripMenuItem = new ToolStripMenuItem();
-            실행취소ToolStripMenuItem = new ToolStripMenuItem();
-            잘라내기ToolStripMenuItem = new ToolStripMenuItem();
-            복사ToolStripMenuItem = new ToolStripMenuItem();
-            붙여넣기ToolStripMenuItem = new ToolStripMenuItem();
-            삭제ToolStripMenuItem = new ToolStripMenuItem();
-            모두선택ToolStripMenuItem = new ToolStripMenuItem();
+            tsmiUndo = new ToolStripMenuItem();
+            tsmiCut = new ToolStripMenuItem();
+            tsmiCopy = new ToolStripMenuItem();
+            tsmiPaste = new ToolStripMenuItem();
+            tsmiDelete = new ToolStripMenuItem();
+            tsmiSelectAll = new ToolStripMenuItem();
             서식ToolStripMenuItem = new ToolStripMenuItem();
-            자동줄바꿈ToolStripMenuItem = new ToolStripMenuItem();
-            글꼴ToolStripMenuItem = new ToolStripMenuItem();
-            글자색바꾸기ToolStripMenuItem = new ToolStripMenuItem();
-            바탕색바꾸기ToolStripMenuItem = new ToolStripMenuItem();
+            tsmiWordWrap = new ToolStripMenuItem();
+            tsmiFont = new ToolStripMenuItem();
+            tsmiFontColor = new ToolStripMenuItem();
+            tsmiBackColor = new ToolStripMenuItem();
             ofd = new OpenFileDialog();
             sfd = new SaveFileDialog();
             fnd = new FontDialog();
@@ -78,7 +78,7 @@
             // 
             // 파일ToolStripMenuItem
             // 
-            파일ToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { tsmiNew, tsmiOpen, tsmiSave, tsmiSaveAs, 끝내기ToolStripMenuItem });
+            파일ToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { tsmiNew, tsmiOpen, tsmiSave, tsmiSaveAs, tsmiExit });
             파일ToolStripMenuItem.Name = "파일ToolStripMenuItem";
             파일ToolStripMenuItem.Size = new Size(64, 29);
             파일ToolStripMenuItem.Text = "파일";
@@ -100,86 +100,92 @@
             tsmiSave.Name = "tsmiSave";
             tsmiSave.Size = new Size(270, 34);
             tsmiSave.Text = "저장";
-           
-            // 끝내기ToolStripMenuItem
             // 
-            끝내기ToolStripMenuItem.Name = "끝내기ToolStripMenuItem";
-            끝내기ToolStripMenuItem.Size = new Size(270, 34);
-            끝내기ToolStripMenuItem.Text = "끝내기";
+            // tsmiSaveAs
+            // 
+            tsmiSaveAs.Name = "tsmiSaveAs";
+            tsmiSaveAs.Size = new Size(270, 34);
+            tsmiSaveAs.Text = "다른이름으로저장";
+            // 
+            // tsmiExit
+            // 
+            tsmiExit.Name = "tsmiExit";
+            tsmiExit.Size = new Size(270, 34);
+            tsmiExit.Text = "끝내기";
             // 
             // 편집ToolStripMenuItem
             // 
-            편집ToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { 실행취소ToolStripMenuItem, 잘라내기ToolStripMenuItem, 복사ToolStripMenuItem, 붙여넣기ToolStripMenuItem, 삭제ToolStripMenuItem, 모두선택ToolStripMenuItem });
+            편집ToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { tsmiUndo, tsmiCut, tsmiCopy, tsmiPaste, tsmiDelete, tsmiSelectAll });
             편집ToolStripMenuItem.Name = "편집ToolStripMenuItem";
             편집ToolStripMenuItem.Size = new Size(64, 29);
             편집ToolStripMenuItem.Text = "편집";
             // 
-            // 실행취소ToolStripMenuItem
+            // tsmiUndo
             // 
-            실행취소ToolStripMenuItem.Name = "실행취소ToolStripMenuItem";
-            실행취소ToolStripMenuItem.Size = new Size(270, 34);
-            실행취소ToolStripMenuItem.Text = "실행취소";
+            tsmiUndo.Name = "tsmiUndo";
+            tsmiUndo.Size = new Size(270, 34);
+            tsmiUndo.Text = "실행취소";
             // 
-            // 잘라내기ToolStripMenuItem
+            // tsmiCut
             // 
-            잘라내기ToolStripMenuItem.Name = "잘라내기ToolStripMenuItem";
-            잘라내기ToolStripMenuItem.Size = new Size(270, 34);
-            잘라내기ToolStripMenuItem.Text = "잘라내기";
+            tsmiCut.Name = "tsmiCut";
+            tsmiCut.Size = new Size(270, 34);
+            tsmiCut.Text = "잘라내기";
             // 
-            // 복사ToolStripMenuItem
+            // tsmiCopy
             // 
-            복사ToolStripMenuItem.Name = "복사ToolStripMenuItem";
-            복사ToolStripMenuItem.Size = new Size(270, 34);
-            복사ToolStripMenuItem.Text = "복사";
+            tsmiCopy.Name = "tsmiCopy";
+            tsmiCopy.Size = new Size(270, 34);
+            tsmiCopy.Text = "복사";
             // 
-            // 붙여넣기ToolStripMenuItem
+            // tsmiPaste
             // 
-            붙여넣기ToolStripMenuItem.Name = "붙여넣기ToolStripMenuItem";
-            붙여넣기ToolStripMenuItem.Size = new Size(270, 34);
-            붙여넣기ToolStripMenuItem.Text = "붙여넣기";
+            tsmiPaste.Name = "tsmiPaste";
+            tsmiPaste.Size = new Size(270, 34);
+            tsmiPaste.Text = "붙여넣기";
             // 
-            // 삭제ToolStripMenuItem
+            // tsmiDelete
             // 
-            삭제ToolStripMenuItem.Name = "삭제ToolStripMenuItem";
-            삭제ToolStripMenuItem.Size = new Size(270, 34);
-            삭제ToolStripMenuItem.Text = "삭제";
+            tsmiDelete.Name = "tsmiDelete";
+            tsmiDelete.Size = new Size(270, 34);
+            tsmiDelete.Text = "삭제";
             // 
-            // 모두선택ToolStripMenuItem
+            // tsmiSelectAll
             // 
-            모두선택ToolStripMenuItem.Name = "모두선택ToolStripMenuItem";
-            모두선택ToolStripMenuItem.Size = new Size(270, 34);
-            모두선택ToolStripMenuItem.Text = "모두선택";
+            tsmiSelectAll.Name = "tsmiSelectAll";
+            tsmiSelectAll.Size = new Size(270, 34);
+            tsmiSelectAll.Text = "모두선택";
             // 
             // 서식ToolStripMenuItem
             // 
-            서식ToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { 자동줄바꿈ToolStripMenuItem, 글꼴ToolStripMenuItem, 글자색바꾸기ToolStripMenuItem, 바탕색바꾸기ToolStripMenuItem });
+            서식ToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { tsmiWordWrap, tsmiFont, tsmiFontColor, tsmiBackColor });
             서식ToolStripMenuItem.Name = "서식ToolStripMenuItem";
             서식ToolStripMenuItem.Size = new Size(64, 29);
             서식ToolStripMenuItem.Text = "서식";
             // 
-            // 자동줄바꿈ToolStripMenuItem
+            // tsmiWordWrap
             // 
-            자동줄바꿈ToolStripMenuItem.Name = "자동줄바꿈ToolStripMenuItem";
-            자동줄바꿈ToolStripMenuItem.Size = new Size(270, 34);
-            자동줄바꿈ToolStripMenuItem.Text = "자동줄바꿈";
+            tsmiWordWrap.Name = "tsmiWordWrap";
+            tsmiWordWrap.Size = new Size(270, 34);
+            tsmiWordWrap.Text = "자동줄바꿈";
             // 
-            // 글꼴ToolStripMenuItem
+            // tsmiFont
             // 
-            글꼴ToolStripMenuItem.Name = "글꼴ToolStripMenuItem";
-            글꼴ToolStripMenuItem.Size = new Size(270, 34);
-            글꼴ToolStripMenuItem.Text = "글꼴";
+            tsmiFont.Name = "tsmiFont";
+            tsmiFont.Size = new Size(270, 34);
+            tsmiFont.Text = "글꼴";
             // 
-            // 글자색바꾸기ToolStripMenuItem
+            // tsmiFontColor
             // 
-            글자색바꾸기ToolStripMenuItem.Name = "글자색바꾸기ToolStripMenuItem";
-            글자색바꾸기ToolStripMenuItem.Size = new Size(270, 34);
-            글자색바꾸기ToolStripMenuItem.Text = "글자색바꾸기";
+            tsmiFontColor.Name = "tsmiFontColor";
+            tsmiFontColor.Size = new Size(270, 34);
+            tsmiFontColor.Text = "글자색바꾸기";
             // 
-            // 바탕색바꾸기ToolStripMenuItem
+            // tsmiBackColor
             // 
-            바탕색바꾸기ToolStripMenuItem.Name = "바탕색바꾸기ToolStripMenuItem";
-            바탕색바꾸기ToolStripMenuItem.Size = new Size(270, 34);
-            바탕색바꾸기ToolStripMenuItem.Text = "바탕색바꾸기";
+            tsmiBackColor.Name = "tsmiBackColor";
+            tsmiBackColor.Size = new Size(270, 34);
+            tsmiBackColor.Text = "바탕색바꾸기";
             // 
             // ofd
             // 
@@ -211,19 +217,19 @@
         private ToolStripMenuItem tsmiOpen;
         private ToolStripMenuItem tsmiSave;
         private ToolStripMenuItem tsmiSaveAs;
-        private ToolStripMenuItem 끝내기ToolStripMenuItem;
+        private ToolStripMenuItem tsmiExit;
         private ToolStripMenuItem 편집ToolStripMenuItem;
-        private ToolStripMenuItem 실행취소ToolStripMenuItem;
-        private ToolStripMenuItem 잘라내기ToolStripMenuItem;
-        private ToolStripMenuItem 복사ToolStripMenuItem;
-        private ToolStripMenuItem 붙여넣기ToolStripMenuItem;
-        private ToolStripMenuItem 삭제ToolStripMenuItem;
-        private ToolStripMenuItem 모두선택ToolStripMenuItem;
+        private ToolStripMenuItem tsmiUndo;
+        private ToolStripMenuItem tsmiCut;
+        private ToolStripMenuItem tsmiCopy;
+        private ToolStripMenuItem tsmiPaste;
+        private ToolStripMenuItem tsmiDelete;
+        private ToolStripMenuItem tsmiSelectAll;
         private ToolStripMenuItem 서식ToolStripMenuItem;
-        private ToolStripMenuItem 자동줄바꿈ToolStripMenuItem;
-        private ToolStripMenuItem 글꼴ToolStripMenuItem;
-        private ToolStripMenuItem 글자색바꾸기ToolStripMenuItem;
-        private ToolStripMenuItem 바탕색바꾸기ToolStripMenuItem;
+        private ToolStripMenuItem tsmiWordWrap;
+        private ToolStripMenuItem tsmiFont;
+        private ToolStripMenuItem tsmiFontColor;
+        private ToolStripMenuItem tsmiBackColor;
         private OpenFileDialog ofd;
         private SaveFileDialog sfd;
         private FontDialog fnd;
