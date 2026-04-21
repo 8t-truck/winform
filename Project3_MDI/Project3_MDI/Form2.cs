@@ -17,5 +17,9 @@ namespace Project3_MDI
         {
             InitializeComponent();
         }
+        public TextBox getTextBox()
+        {
+            return this.textBox;
+        }
     }
 }

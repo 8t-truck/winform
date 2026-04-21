@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            menuStrip1 = new MenuStrip();
+            mainMenu = new MenuStrip();
             파일ToolStripMenuItem = new ToolStripMenuItem();
             새파일ToolStripMenuItem = new ToolStripMenuItem();
             열기ToolStripMenuItem = new ToolStripMenuItem();
@@ -49,18 +49,22 @@
             바둑판배열ToolStripMenuItem = new ToolStripMenuItem();
             바둑판배열가로ToolStripMenuItem = new ToolStripMenuItem();
             계ToolStripMenuItem = new ToolStripMenuItem();
-            menuStrip1.SuspendLayout();
+            openFDlg = new OpenFileDialog();
+            saveFDlg = new SaveFileDialog();
+            fontDlg = new FontDialog();
+            colorDlg = new ColorDialog();
+            mainMenu.SuspendLayout();
             SuspendLayout();
             // 
-            // menuStrip1
+            // mainMenu
             // 
-            menuStrip1.ImageScalingSize = new Size(24, 24);
-            menuStrip1.Items.AddRange(new ToolStripItem[] { 파일ToolStripMenuItem, 편집ToolStripMenuItem, 보기ToolStripMenuItem, 창ToolStripMenuItem });
-            menuStrip1.Location = new Point(0, 0);
-            menuStrip1.Name = "menuStrip1";
-            menuStrip1.Size = new Size(800, 33);
-            menuStrip1.TabIndex = 1;
-            menuStrip1.Text = "menuStrip1";
+            mainMenu.ImageScalingSize = new Size(24, 24);
+            mainMenu.Items.AddRange(new ToolStripItem[] { 파일ToolStripMenuItem, 편집ToolStripMenuItem, 보기ToolStripMenuItem, 창ToolStripMenuItem });
+            mainMenu.Location = new Point(0, 0);
+            mainMenu.Name = "mainMenu";
+            mainMenu.Size = new Size(800, 33);
+            mainMenu.TabIndex = 1;
+            mainMenu.Text = "menuStrip1";
             // 
             // 파일ToolStripMenuItem
             // 
@@ -74,24 +78,28 @@
             새파일ToolStripMenuItem.Name = "새파일ToolStripMenuItem";
             새파일ToolStripMenuItem.Size = new Size(270, 34);
             새파일ToolStripMenuItem.Text = "새파일";
+            새파일ToolStripMenuItem.Click += 새파일ToolStripMenuItem_Click;
             // 
             // 열기ToolStripMenuItem
             // 
             열기ToolStripMenuItem.Name = "열기ToolStripMenuItem";
             열기ToolStripMenuItem.Size = new Size(270, 34);
             열기ToolStripMenuItem.Text = "열기";
+            열기ToolStripMenuItem.Click += 열기ToolStripMenuItem_Click;
             // 
             // 저장ToolStripMenuItem
             // 
             저장ToolStripMenuItem.Name = "저장ToolStripMenuItem";
             저장ToolStripMenuItem.Size = new Size(270, 34);
             저장ToolStripMenuItem.Text = "저장";
+            저장ToolStripMenuItem.Click += 저장ToolStripMenuItem_Click;
             // 
             // 다른이름으로저장ToolStripMenuItem
             // 
             다른이름으로저장ToolStripMenuItem.Name = "다른이름으로저장ToolStripMenuItem";
             다른이름으로저장ToolStripMenuItem.Size = new Size(270, 34);
             다른이름으로저장ToolStripMenuItem.Text = "다른이름으로저장";
+            다른이름으로저장ToolStripMenuItem.Click += 다른이름으로저장ToolStripMenuItem_Click;
             // 
             // 편집ToolStripMenuItem
             // 
@@ -105,30 +113,35 @@
             실행취소ToolStripMenuItem.Name = "실행취소ToolStripMenuItem";
             실행취소ToolStripMenuItem.Size = new Size(270, 34);
             실행취소ToolStripMenuItem.Text = "실행취소";
+            실행취소ToolStripMenuItem.Click += 실행취소ToolStripMenuItem_Click;
             // 
             // 오려내기ToolStripMenuItem
             // 
             오려내기ToolStripMenuItem.Name = "오려내기ToolStripMenuItem";
             오려내기ToolStripMenuItem.Size = new Size(270, 34);
             오려내기ToolStripMenuItem.Text = "오려내기";
+            오려내기ToolStripMenuItem.Click += 오려내기ToolStripMenuItem_Click;
             // 
             // 복사하기ToolStripMenuItem
             // 
             복사하기ToolStripMenuItem.Name = "복사하기ToolStripMenuItem";
             복사하기ToolStripMenuItem.Size = new Size(270, 34);
             복사하기ToolStripMenuItem.Text = "복사하기";
+            복사하기ToolStripMenuItem.Click += 복사하기ToolStripMenuItem_Click;
             // 
             // 붙여넣기ToolStripMenuItem
             // 
             붙여넣기ToolStripMenuItem.Name = "붙여넣기ToolStripMenuItem";
             붙여넣기ToolStripMenuItem.Size = new Size(270, 34);
             붙여넣기ToolStripMenuItem.Text = "붙여넣기";
+            붙여넣기ToolStripMenuItem.Click += 붙여넣기ToolStripMenuItem_Click;
             // 
             // 지우기ToolStripMenuItem
             // 
             지우기ToolStripMenuItem.Name = "지우기ToolStripMenuItem";
             지우기ToolStripMenuItem.Size = new Size(270, 34);
             지우기ToolStripMenuItem.Text = "지우기";
+            지우기ToolStripMenuItem.Click += 지우기ToolStripMenuItem_Click;
             // 
             // 보기ToolStripMenuItem
             // 
@@ -142,24 +155,28 @@
             자동줄바꿈ToolStripMenuItem.Name = "자동줄바꿈ToolStripMenuItem";
             자동줄바꿈ToolStripMenuItem.Size = new Size(270, 34);
             자동줄바꿈ToolStripMenuItem.Text = "자동줄바꿈";
+            자동줄바꿈ToolStripMenuItem.Click += 자동줄바꿈ToolStripMenuItem_Click;
             // 
             // 글꼴ToolStripMenuItem
             // 
             글꼴ToolStripMenuItem.Name = "글꼴ToolStripMenuItem";
             글꼴ToolStripMenuItem.Size = new Size(270, 34);
             글꼴ToolStripMenuItem.Text = "글꼴";
+            글꼴ToolStripMenuItem.Click += 글꼴ToolStripMenuItem_Click;
             // 
             // 글자색바꾸기ToolStripMenuItem
             // 
             글자색바꾸기ToolStripMenuItem.Name = "글자색바꾸기ToolStripMenuItem";
             글자색바꾸기ToolStripMenuItem.Size = new Size(270, 34);
             글자색바꾸기ToolStripMenuItem.Text = "글자색바꾸기";
+            글자색바꾸기ToolStripMenuItem.Click += 글자색바꾸기ToolStripMenuItem_Click;
             // 
             // 바탕색바꾸기ToolStripMenuItem
             // 
             바탕색바꾸기ToolStripMenuItem.Name = "바탕색바꾸기ToolStripMenuItem";
             바탕색바꾸기ToolStripMenuItem.Size = new Size(270, 34);
             바탕색바꾸기ToolStripMenuItem.Text = "바탕색바꾸기";
+            바탕색바꾸기ToolStripMenuItem.Click += 바탕색바꾸기ToolStripMenuItem_Click;
             // 
             // 창ToolStripMenuItem
             // 
@@ -173,39 +190,46 @@
             바둑판배열ToolStripMenuItem.Name = "바둑판배열ToolStripMenuItem";
             바둑판배열ToolStripMenuItem.Size = new Size(270, 34);
             바둑판배열ToolStripMenuItem.Text = "바둑판배열(세로)";
+            바둑판배열ToolStripMenuItem.Click += 바둑판배열ToolStripMenuItem_Click;
             // 
             // 바둑판배열가로ToolStripMenuItem
             // 
             바둑판배열가로ToolStripMenuItem.Name = "바둑판배열가로ToolStripMenuItem";
             바둑판배열가로ToolStripMenuItem.Size = new Size(270, 34);
             바둑판배열가로ToolStripMenuItem.Text = "바둑판배열(가로)";
+            바둑판배열가로ToolStripMenuItem.Click += 바둑판배열가로ToolStripMenuItem_Click;
             // 
             // 계ToolStripMenuItem
             // 
             계ToolStripMenuItem.Name = "계ToolStripMenuItem";
             계ToolStripMenuItem.Size = new Size(270, 34);
             계ToolStripMenuItem.Text = "계단식배열";
+            계ToolStripMenuItem.Click += 계ToolStripMenuItem_Click;
+            // 
+            // openFDlg
+            // 
+            openFDlg.FileName = "openFileDialog1";
             // 
             // Parent
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
-            Controls.Add(menuStrip1);
+            Controls.Add(mainMenu);
             IsMdiContainer = true;
-            MainMenuStrip = menuStrip1;
+            MainMenuStrip = mainMenu;
             Name = "Parent";
             Text = "Parent";
             Load += Form1_Load;
-            menuStrip1.ResumeLayout(false);
-            menuStrip1.PerformLayout();
+            mainMenu.ResumeLayout(false);
+            mainMenu.PerformLayout();
             ResumeLayout(false);
             PerformLayout();
         }
 
         #endregion
 
-        private MenuStrip menuStrip1;
+        private MenuStrip mainMenu;
         private ToolStripMenuItem 파일ToolStripMenuItem;
         private ToolStripMenuItem 새파일ToolStripMenuItem;
         private ToolStripMenuItem 열기ToolStripMenuItem;
@@ -226,5 +250,9 @@
         private ToolStripMenuItem 바둑판배열ToolStripMenuItem;
         private ToolStripMenuItem 바둑판배열가로ToolStripMenuItem;
         private ToolStripMenuItem 계ToolStripMenuItem;
+        private OpenFileDialog openFDlg;
+        private SaveFileDialog saveFDlg;
+        private FontDialog fontDlg;
+        private ColorDialog colorDlg;
     }
 }
