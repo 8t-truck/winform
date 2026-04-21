@@ -86,32 +86,37 @@
             // tsmiNew
             // 
             tsmiNew.Name = "tsmiNew";
-            tsmiNew.Size = new Size(270, 34);
+            tsmiNew.Size = new Size(258, 34);
             tsmiNew.Text = "새로만들기(&N)";
+            tsmiNew.Click += tsmiNew_Click;
             // 
             // tsmiOpen
             // 
             tsmiOpen.Name = "tsmiOpen";
-            tsmiOpen.Size = new Size(270, 34);
+            tsmiOpen.Size = new Size(258, 34);
             tsmiOpen.Text = "열기";
+            tsmiOpen.Click += tsmiOpen_Click;
             // 
             // tsmiSave
             // 
             tsmiSave.Name = "tsmiSave";
-            tsmiSave.Size = new Size(270, 34);
+            tsmiSave.Size = new Size(258, 34);
             tsmiSave.Text = "저장";
+            tsmiSave.Click += tsmiSave_Click;
             // 
             // tsmiSaveAs
             // 
             tsmiSaveAs.Name = "tsmiSaveAs";
-            tsmiSaveAs.Size = new Size(270, 34);
+            tsmiSaveAs.Size = new Size(258, 34);
             tsmiSaveAs.Text = "다른이름으로저장";
+            tsmiSaveAs.Click += tsmiSaveAs_Click;
             // 
             // tsmiExit
             // 
             tsmiExit.Name = "tsmiExit";
-            tsmiExit.Size = new Size(270, 34);
+            tsmiExit.Size = new Size(258, 34);
             tsmiExit.Text = "끝내기";
+            tsmiExit.Click += tsmiExit_Click;
             // 
             // 편집ToolStripMenuItem
             // 
@@ -123,38 +128,44 @@
             // tsmiUndo
             // 
             tsmiUndo.Name = "tsmiUndo";
-            tsmiUndo.Size = new Size(270, 34);
+            tsmiUndo.Size = new Size(186, 34);
             tsmiUndo.Text = "실행취소";
+            tsmiUndo.Click += tsmiUndo_Click;
             // 
             // tsmiCut
             // 
             tsmiCut.Name = "tsmiCut";
-            tsmiCut.Size = new Size(270, 34);
+            tsmiCut.Size = new Size(186, 34);
             tsmiCut.Text = "잘라내기";
+            tsmiCut.Click += tsmiCut_Click;
             // 
             // tsmiCopy
             // 
             tsmiCopy.Name = "tsmiCopy";
-            tsmiCopy.Size = new Size(270, 34);
+            tsmiCopy.Size = new Size(186, 34);
             tsmiCopy.Text = "복사";
+            tsmiCopy.Click += tsmiCopy_Click;
             // 
             // tsmiPaste
             // 
             tsmiPaste.Name = "tsmiPaste";
-            tsmiPaste.Size = new Size(270, 34);
+            tsmiPaste.Size = new Size(186, 34);
             tsmiPaste.Text = "붙여넣기";
+            tsmiPaste.Click += tsmiPaste_Click;
             // 
             // tsmiDelete
             // 
             tsmiDelete.Name = "tsmiDelete";
-            tsmiDelete.Size = new Size(270, 34);
+            tsmiDelete.Size = new Size(186, 34);
             tsmiDelete.Text = "삭제";
+            tsmiDelete.Click += tsmiDelete_Click;
             // 
             // tsmiSelectAll
             // 
             tsmiSelectAll.Name = "tsmiSelectAll";
-            tsmiSelectAll.Size = new Size(270, 34);
+            tsmiSelectAll.Size = new Size(186, 34);
             tsmiSelectAll.Text = "모두선택";
+            tsmiSelectAll.Click += tsmiSelectAll_Click;
             // 
             // 서식ToolStripMenuItem
             // 
@@ -166,26 +177,30 @@
             // tsmiWordWrap
             // 
             tsmiWordWrap.Name = "tsmiWordWrap";
-            tsmiWordWrap.Size = new Size(270, 34);
+            tsmiWordWrap.Size = new Size(222, 34);
             tsmiWordWrap.Text = "자동줄바꿈";
+            tsmiWordWrap.Click += tsmiWordWrap_Click;
             // 
             // tsmiFont
             // 
             tsmiFont.Name = "tsmiFont";
-            tsmiFont.Size = new Size(270, 34);
+            tsmiFont.Size = new Size(222, 34);
             tsmiFont.Text = "글꼴";
+            tsmiFont.Click += tsmiFont_Click;
             // 
             // tsmiFontColor
             // 
             tsmiFontColor.Name = "tsmiFontColor";
-            tsmiFontColor.Size = new Size(270, 34);
+            tsmiFontColor.Size = new Size(222, 34);
             tsmiFontColor.Text = "글자색바꾸기";
+            tsmiFontColor.Click += tsmiFontColor_Click;
             // 
             // tsmiBackColor
             // 
             tsmiBackColor.Name = "tsmiBackColor";
-            tsmiBackColor.Size = new Size(270, 34);
+            tsmiBackColor.Size = new Size(222, 34);
             tsmiBackColor.Text = "바탕색바꾸기";
+            tsmiBackColor.Click += tsmiBackColor_Click;
             // 
             // ofd
             // 
@@ -201,6 +216,7 @@
             MainMenuStrip = mns;
             Name = "Form1";
             Text = "Form1";
+            FormClosing += Form1_FormClosing_1;
             Load += Form1_Load;
             mns.ResumeLayout(false);
             mns.PerformLayout();
