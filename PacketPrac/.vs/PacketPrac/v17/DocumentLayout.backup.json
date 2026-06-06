@@ -1,0 +1,119 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\Projects\\practice\\PacketPrac\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{147140C5-0A5E-4180-963B-323AF3BD3BD4}|PacketServer\\PacketServer.csproj|e:\\projects\\practice\\packetprac\\packetserver\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{147140C5-0A5E-4180-963B-323AF3BD3BD4}|PacketServer\\PacketServer.csproj|solutionrelative:packetserver\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{147140C5-0A5E-4180-963B-323AF3BD3BD4}|PacketServer\\PacketServer.csproj|E:\\Projects\\practice\\PacketPrac\\packetserver\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{147140C5-0A5E-4180-963B-323AF3BD3BD4}|PacketServer\\PacketServer.csproj|solutionrelative:packetserver\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03A7E160-9FFD-4293-A6B5-424DBCD6D722}|PacketClient\\PacketClient.csproj|e:\\projects\\practice\\packetprac\\packetclient\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03A7E160-9FFD-4293-A6B5-424DBCD6D722}|PacketClient\\PacketClient.csproj|solutionrelative:packetclient\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03A7E160-9FFD-4293-A6B5-424DBCD6D722}|PacketClient\\PacketClient.csproj|E:\\Projects\\practice\\PacketPrac\\packetclient\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{03A7E160-9FFD-4293-A6B5-424DBCD6D722}|PacketClient\\PacketClient.csproj|solutionrelative:packetclient\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDA7B9BB-A8B1-4AB7-A41E-55214A65A1AF}|PacketPrac\\PacketPrac.csproj|e:\\projects\\practice\\packetprac\\packetprac\\packetprac.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{DDA7B9BB-A8B1-4AB7-A41E-55214A65A1AF}|PacketPrac\\PacketPrac.csproj|solutionrelative:packetprac\\packetprac.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDA7B9BB-A8B1-4AB7-A41E-55214A65A1AF}|PacketPrac\\PacketPrac.csproj|e:\\projects\\practice\\packetprac\\packetprac\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDA7B9BB-A8B1-4AB7-A41E-55214A65A1AF}|PacketPrac\\PacketPrac.csproj|solutionrelative:packetprac\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PacketPrac",
+              "DocumentMoniker": "E:\\Projects\\practice\\PacketPrac\\PacketPrac\\PacketPrac.csproj",
+              "RelativeDocumentMoniker": "PacketPrac\\PacketPrac.csproj",
+              "ToolTip": "E:\\Projects\\practice\\PacketPrac\\PacketPrac\\PacketPrac.csproj",
+              "RelativeToolTip": "PacketPrac\\PacketPrac.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-06-05T02:12:37.97Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "E:\\Projects\\practice\\PacketPrac\\PacketClient\\Form1.cs",
+              "RelativeDocumentMoniker": "PacketClient\\Form1.cs",
+              "ToolTip": "E:\\Projects\\practice\\PacketPrac\\PacketClient\\Form1.cs",
+              "RelativeToolTip": "PacketClient\\Form1.cs",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAswFkAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-01T01:23:02.841Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form1.cs [\uB514\uC790\uC778]",
+              "DocumentMoniker": "E:\\Projects\\practice\\PacketPrac\\PacketClient\\Form1.cs",
+              "RelativeDocumentMoniker": "PacketClient\\Form1.cs",
+              "ToolTip": "E:\\Projects\\practice\\PacketPrac\\PacketClient\\Form1.cs [\uB514\uC790\uC778]",
+              "RelativeToolTip": "PacketClient\\Form1.cs [\uB514\uC790\uC778]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-01T01:19:52.399Z",
+              "EditorCaption": " [\uB514\uC790\uC778]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "E:\\Projects\\practice\\PacketPrac\\PacketServer\\Form1.cs",
+              "RelativeDocumentMoniker": "PacketServer\\Form1.cs",
+              "ToolTip": "E:\\Projects\\practice\\PacketPrac\\PacketServer\\Form1.cs",
+              "RelativeToolTip": "PacketServer\\Form1.cs",
+              "ViewState": "AgIAAGAAAAAAAAAAAAAowG8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-01T01:13:05.326Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "E:\\Projects\\practice\\PacketPrac\\PacketPrac\\Class1.cs",
+              "RelativeDocumentMoniker": "PacketPrac\\Class1.cs",
+              "ToolTip": "E:\\Projects\\practice\\PacketPrac\\PacketPrac\\Class1.cs",
+              "RelativeToolTip": "PacketPrac\\Class1.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAkwDUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-01T00:58:11.807Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs [\uB514\uC790\uC778]",
+              "DocumentMoniker": "E:\\Projects\\practice\\PacketPrac\\PacketServer\\Form1.cs",
+              "RelativeDocumentMoniker": "PacketServer\\Form1.cs",
+              "ToolTip": "E:\\Projects\\practice\\PacketPrac\\PacketServer\\Form1.cs [\uB514\uC790\uC778]",
+              "RelativeToolTip": "PacketServer\\Form1.cs [\uB514\uC790\uC778]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-01T01:08:12.92Z",
+              "EditorCaption": " [\uB514\uC790\uC778]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

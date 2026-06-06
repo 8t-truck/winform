@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(Start-Process \"E:\\\\Projects\\\\practice\\\\PacketPrac\\\\PacketServer\\\\bin\\\\Debug\\\\net8.0-windows\\\\PacketServer.exe\")",
+      "PowerShell(Start-Sleep -Milliseconds 800; Start-Process \"E:\\\\Projects\\\\practice\\\\PacketPrac\\\\PacketClient\\\\bin\\\\Debug\\\\net8.0-windows\\\\PacketClient.exe\")"
+    ]
+  }
+}

@@ -1,0 +1,11 @@
+E:\Projects\practice\PacketPrac\PacketPrac\bin\Debug\net8.0-windows\PacketPrac.deps.json
+E:\Projects\practice\PacketPrac\PacketPrac\bin\Debug\net8.0-windows\PacketPrac.dll
+E:\Projects\practice\PacketPrac\PacketPrac\bin\Debug\net8.0-windows\PacketPrac.pdb
+E:\Projects\practice\PacketPrac\PacketPrac\obj\Debug\net8.0-windows\PacketPrac.GeneratedMSBuildEditorConfig.editorconfig
+E:\Projects\practice\PacketPrac\PacketPrac\obj\Debug\net8.0-windows\PacketPrac.AssemblyInfoInputs.cache
+E:\Projects\practice\PacketPrac\PacketPrac\obj\Debug\net8.0-windows\PacketPrac.AssemblyInfo.cs
+E:\Projects\practice\PacketPrac\PacketPrac\obj\Debug\net8.0-windows\PacketPrac.csproj.CoreCompileInputs.cache
+E:\Projects\practice\PacketPrac\PacketPrac\obj\Debug\net8.0-windows\PacketPrac.dll
+E:\Projects\practice\PacketPrac\PacketPrac\obj\Debug\net8.0-windows\refint\PacketPrac.dll
+E:\Projects\practice\PacketPrac\PacketPrac\obj\Debug\net8.0-windows\PacketPrac.pdb
+E:\Projects\practice\PacketPrac\PacketPrac\obj\Debug\net8.0-windows\ref\PacketPrac.dll

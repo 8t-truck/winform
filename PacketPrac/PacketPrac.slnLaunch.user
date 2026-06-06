@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "새 프로필",
+    "Projects": [
+      {
+        "Path": "PacketServer\\PacketServer.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "PacketClient\\PacketClient.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]
