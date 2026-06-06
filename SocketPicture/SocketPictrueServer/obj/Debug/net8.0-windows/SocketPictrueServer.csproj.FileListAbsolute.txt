@@ -1,0 +1,16 @@
+E:\Projects\practice\SocketPicture\SocketPictrueServer\bin\Debug\net8.0-windows\SocketPictrueServer.exe
+E:\Projects\practice\SocketPicture\SocketPictrueServer\bin\Debug\net8.0-windows\SocketPictrueServer.deps.json
+E:\Projects\practice\SocketPicture\SocketPictrueServer\bin\Debug\net8.0-windows\SocketPictrueServer.runtimeconfig.json
+E:\Projects\practice\SocketPicture\SocketPictrueServer\bin\Debug\net8.0-windows\SocketPictrueServer.dll
+E:\Projects\practice\SocketPicture\SocketPictrueServer\bin\Debug\net8.0-windows\SocketPictrueServer.pdb
+E:\Projects\practice\SocketPicture\SocketPictrueServer\obj\Debug\net8.0-windows\SocketPictrueServer.Form1.resources
+E:\Projects\practice\SocketPicture\SocketPictrueServer\obj\Debug\net8.0-windows\SocketPictrueServer.csproj.GenerateResource.cache
+E:\Projects\practice\SocketPicture\SocketPictrueServer\obj\Debug\net8.0-windows\SocketPictrueServer.GeneratedMSBuildEditorConfig.editorconfig
+E:\Projects\practice\SocketPicture\SocketPictrueServer\obj\Debug\net8.0-windows\SocketPictrueServer.AssemblyInfoInputs.cache
+E:\Projects\practice\SocketPicture\SocketPictrueServer\obj\Debug\net8.0-windows\SocketPictrueServer.AssemblyInfo.cs
+E:\Projects\practice\SocketPicture\SocketPictrueServer\obj\Debug\net8.0-windows\SocketPictrueServer.csproj.CoreCompileInputs.cache
+E:\Projects\practice\SocketPicture\SocketPictrueServer\obj\Debug\net8.0-windows\SocketPictrueServer.dll
+E:\Projects\practice\SocketPicture\SocketPictrueServer\obj\Debug\net8.0-windows\refint\SocketPictrueServer.dll
+E:\Projects\practice\SocketPicture\SocketPictrueServer\obj\Debug\net8.0-windows\SocketPictrueServer.pdb
+E:\Projects\practice\SocketPicture\SocketPictrueServer\obj\Debug\net8.0-windows\SocketPictrueServer.genruntimeconfig.cache
+E:\Projects\practice\SocketPicture\SocketPictrueServer\obj\Debug\net8.0-windows\ref\SocketPictrueServer.dll

@@ -1,0 +1,16 @@
+E:\Projects\practice\1to1Chattingprogram\1to1Chattingprogram\bin\Debug\net8.0-windows\1to1Chattingprogram.exe
+E:\Projects\practice\1to1Chattingprogram\1to1Chattingprogram\bin\Debug\net8.0-windows\1to1Chattingprogram.deps.json
+E:\Projects\practice\1to1Chattingprogram\1to1Chattingprogram\bin\Debug\net8.0-windows\1to1Chattingprogram.runtimeconfig.json
+E:\Projects\practice\1to1Chattingprogram\1to1Chattingprogram\bin\Debug\net8.0-windows\1to1Chattingprogram.dll
+E:\Projects\practice\1to1Chattingprogram\1to1Chattingprogram\bin\Debug\net8.0-windows\1to1Chattingprogram.pdb
+E:\Projects\practice\1to1Chattingprogram\1to1Chattingprogram\obj\Debug\net8.0-windows\_1to1Chattingprogram.Form1.resources
+E:\Projects\practice\1to1Chattingprogram\1to1Chattingprogram\obj\Debug\net8.0-windows\1to1Chattingprogram.csproj.GenerateResource.cache
+E:\Projects\practice\1to1Chattingprogram\1to1Chattingprogram\obj\Debug\net8.0-windows\1to1Chattingprogram.GeneratedMSBuildEditorConfig.editorconfig
+E:\Projects\practice\1to1Chattingprogram\1to1Chattingprogram\obj\Debug\net8.0-windows\1to1Chattingprogram.AssemblyInfoInputs.cache
+E:\Projects\practice\1to1Chattingprogram\1to1Chattingprogram\obj\Debug\net8.0-windows\1to1Chattingprogram.AssemblyInfo.cs
+E:\Projects\practice\1to1Chattingprogram\1to1Chattingprogram\obj\Debug\net8.0-windows\1to1Chattingprogram.csproj.CoreCompileInputs.cache
+E:\Projects\practice\1to1Chattingprogram\1to1Chattingprogram\obj\Debug\net8.0-windows\1to1Chattingprogram.dll
+E:\Projects\practice\1to1Chattingprogram\1to1Chattingprogram\obj\Debug\net8.0-windows\refint\1to1Chattingprogram.dll
+E:\Projects\practice\1to1Chattingprogram\1to1Chattingprogram\obj\Debug\net8.0-windows\1to1Chattingprogram.pdb
+E:\Projects\practice\1to1Chattingprogram\1to1Chattingprogram\obj\Debug\net8.0-windows\1to1Chattingprogram.genruntimeconfig.cache
+E:\Projects\practice\1to1Chattingprogram\1to1Chattingprogram\obj\Debug\net8.0-windows\ref\1to1Chattingprogram.dll

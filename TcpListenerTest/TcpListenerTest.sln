@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.37027.9
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TcpListenerTest", "TcpListenerTest\TcpListenerTest.csproj", "{73D16948-E2FD-4F82-9268-AEAFA3BEA919}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TcpClinetTest", "TcpClinetTest\TcpClinetTest.csproj", "{E4BE4918-E361-4B8E-8DF9-3D7DF1FEF145}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{73D16948-E2FD-4F82-9268-AEAFA3BEA919}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73D16948-E2FD-4F82-9268-AEAFA3BEA919}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73D16948-E2FD-4F82-9268-AEAFA3BEA919}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73D16948-E2FD-4F82-9268-AEAFA3BEA919}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E4BE4918-E361-4B8E-8DF9-3D7DF1FEF145}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4BE4918-E361-4B8E-8DF9-3D7DF1FEF145}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4BE4918-E361-4B8E-8DF9-3D7DF1FEF145}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4BE4918-E361-4B8E-8DF9-3D7DF1FEF145}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A4007B52-7874-4160-820D-8FCD6F45644D}
+	EndGlobalSection
+EndGlobal

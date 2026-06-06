@@ -1,0 +1,14 @@
+E:\Projects\practice\Advanced_C#_3\Advanced_C#_3\bin\Debug\net8.0\LINQPRAC.exe
+E:\Projects\practice\Advanced_C#_3\Advanced_C#_3\bin\Debug\net8.0\LINQPRAC.deps.json
+E:\Projects\practice\Advanced_C#_3\Advanced_C#_3\bin\Debug\net8.0\LINQPRAC.runtimeconfig.json
+E:\Projects\practice\Advanced_C#_3\Advanced_C#_3\bin\Debug\net8.0\LINQPRAC.dll
+E:\Projects\practice\Advanced_C#_3\Advanced_C#_3\bin\Debug\net8.0\LINQPRAC.pdb
+E:\Projects\practice\Advanced_C#_3\Advanced_C#_3\obj\Debug\net8.0\LINQPRAC.GeneratedMSBuildEditorConfig.editorconfig
+E:\Projects\practice\Advanced_C#_3\Advanced_C#_3\obj\Debug\net8.0\LINQPRAC.AssemblyInfoInputs.cache
+E:\Projects\practice\Advanced_C#_3\Advanced_C#_3\obj\Debug\net8.0\LINQPRAC.AssemblyInfo.cs
+E:\Projects\practice\Advanced_C#_3\Advanced_C#_3\obj\Debug\net8.0\LINQPRAC.csproj.CoreCompileInputs.cache
+E:\Projects\practice\Advanced_C#_3\Advanced_C#_3\obj\Debug\net8.0\LINQPRAC.dll
+E:\Projects\practice\Advanced_C#_3\Advanced_C#_3\obj\Debug\net8.0\refint\LINQPRAC.dll
+E:\Projects\practice\Advanced_C#_3\Advanced_C#_3\obj\Debug\net8.0\LINQPRAC.pdb
+E:\Projects\practice\Advanced_C#_3\Advanced_C#_3\obj\Debug\net8.0\LINQPRAC.genruntimeconfig.cache
+E:\Projects\practice\Advanced_C#_3\Advanced_C#_3\obj\Debug\net8.0\ref\LINQPRAC.dll

@@ -1,0 +1,120 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\Projects\\practice\\SocketPicture\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{71A80178-69F2-4CCA-88C1-48BBBB816C8E}|SocketPicture\\SocketPictureServer.csproj|e:\\projects\\practice\\socketpicture\\socketpicture\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71A80178-69F2-4CCA-88C1-48BBBB816C8E}|SocketPicture\\SocketPictureServer.csproj|solutionrelative:socketpicture\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71A80178-69F2-4CCA-88C1-48BBBB816C8E}|SocketPicture\\SocketPicture.csproj|e:\\projects\\practice\\socketpicture\\socketpicture\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{71A80178-69F2-4CCA-88C1-48BBBB816C8E}|SocketPicture\\SocketPicture.csproj|solutionrelative:socketpicture\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71A80178-69F2-4CCA-88C1-48BBBB816C8E}|SocketPicture\\SocketPictureServer.csproj|e:\\projects\\practice\\socketpicture\\socketpicture\\socketpictureserver.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{71A80178-69F2-4CCA-88C1-48BBBB816C8E}|SocketPicture\\SocketPictureServer.csproj|solutionrelative:socketpicture\\socketpictureserver.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FD77771-6A71-4416-BB0A-5BD58DC3E702}|SocketPictureClient\\SocketPictureClient.csproj|e:\\projects\\practice\\socketpicture\\socketpictureclient\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FD77771-6A71-4416-BB0A-5BD58DC3E702}|SocketPictureClient\\SocketPictureClient.csproj|solutionrelative:socketpictureclient\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FD77771-6A71-4416-BB0A-5BD58DC3E702}|SocketPictureClient\\SocketPictureClient.csproj|e:\\projects\\practice\\socketpicture\\socketpictureclient\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0FD77771-6A71-4416-BB0A-5BD58DC3E702}|SocketPictureClient\\SocketPictureClient.csproj|solutionrelative:socketpictureclient\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FD77771-6A71-4416-BB0A-5BD58DC3E702}|SocketPictureClient\\SocketPictureClient.csproj|e:\\projects\\practice\\socketpicture\\socketpictureclient\\socketpictureclient.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{0FD77771-6A71-4416-BB0A-5BD58DC3E702}|SocketPictureClient\\SocketPictureClient.csproj|solutionrelative:socketpictureclient\\socketpictureclient.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SocketPictureServer",
+              "DocumentMoniker": "E:\\Projects\\practice\\SocketPicture\\SocketPicture\\SocketPictureServer.csproj",
+              "RelativeDocumentMoniker": "SocketPicture\\SocketPictureServer.csproj",
+              "ToolTip": "E:\\Projects\\practice\\SocketPicture\\SocketPicture\\SocketPictureServer.csproj",
+              "RelativeToolTip": "SocketPicture\\SocketPictureServer.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-05-29T06:48:22.161Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Form1.cs [\uB514\uC790\uC778]",
+              "DocumentMoniker": "E:\\Projects\\practice\\SocketPicture\\SocketPictureClient\\Form1.cs",
+              "RelativeDocumentMoniker": "SocketPictureClient\\Form1.cs",
+              "ToolTip": "E:\\Projects\\practice\\SocketPicture\\SocketPictureClient\\Form1.cs [\uB514\uC790\uC778]",
+              "RelativeToolTip": "SocketPictureClient\\Form1.cs [\uB514\uC790\uC778]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-29T06:42:17.047Z",
+              "EditorCaption": " [\uB514\uC790\uC778]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SocketPictureClient",
+              "DocumentMoniker": "E:\\Projects\\practice\\SocketPicture\\SocketPictureClient\\SocketPictureClient.csproj",
+              "RelativeDocumentMoniker": "SocketPictureClient\\SocketPictureClient.csproj",
+              "ToolTip": "E:\\Projects\\practice\\SocketPicture\\SocketPictureClient\\SocketPictureClient.csproj",
+              "RelativeToolTip": "SocketPictureClient\\SocketPictureClient.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-05-29T06:34:17.105Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "E:\\Projects\\practice\\SocketPicture\\SocketPicture\\Form1.cs",
+              "RelativeDocumentMoniker": "SocketPicture\\Form1.cs",
+              "ToolTip": "E:\\Projects\\practice\\SocketPicture\\SocketPicture\\Form1.cs",
+              "RelativeToolTip": "SocketPicture\\Form1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAALYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-29T06:34:32.632Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs [\uB514\uC790\uC778]",
+              "DocumentMoniker": "E:\\Projects\\practice\\SocketPicture\\SocketPicture\\Form1.cs",
+              "RelativeDocumentMoniker": "SocketPicture\\Form1.cs",
+              "ToolTip": "E:\\Projects\\practice\\SocketPicture\\SocketPicture\\Form1.cs [\uB514\uC790\uC778]",
+              "RelativeToolTip": "SocketPicture\\Form1.cs [\uB514\uC790\uC778]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-29T06:10:01.465Z",
+              "EditorCaption": " [\uB514\uC790\uC778]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "E:\\Projects\\practice\\SocketPicture\\SocketPictureClient\\Form1.cs",
+              "RelativeDocumentMoniker": "SocketPictureClient\\Form1.cs",
+              "ToolTip": "E:\\Projects\\practice\\SocketPicture\\SocketPictureClient\\Form1.cs",
+              "RelativeToolTip": "SocketPictureClient\\Form1.cs",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAuwFcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-29T06:29:11.025Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

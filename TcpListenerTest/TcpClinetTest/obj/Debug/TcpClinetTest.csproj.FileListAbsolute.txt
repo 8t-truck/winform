@@ -1,0 +1,7 @@
+E:\Projects\practice\TcpListenerTest\TcpClinetTest\bin\Debug\TcpClinetTest.exe.config
+E:\Projects\practice\TcpListenerTest\TcpClinetTest\bin\Debug\TcpClinetTest.exe
+E:\Projects\practice\TcpListenerTest\TcpClinetTest\bin\Debug\TcpClinetTest.pdb
+E:\Projects\practice\TcpListenerTest\TcpClinetTest\obj\Debug\TcpClinetTest.csproj.AssemblyReference.cache
+E:\Projects\practice\TcpListenerTest\TcpClinetTest\obj\Debug\TcpClinetTest.csproj.CoreCompileInputs.cache
+E:\Projects\practice\TcpListenerTest\TcpClinetTest\obj\Debug\TcpClinetTest.exe
+E:\Projects\practice\TcpListenerTest\TcpClinetTest\obj\Debug\TcpClinetTest.pdb

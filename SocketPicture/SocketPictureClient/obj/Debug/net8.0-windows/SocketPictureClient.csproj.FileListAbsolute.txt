@@ -1,0 +1,16 @@
+E:\Projects\practice\SocketPicture\SocketPictureClient\bin\Debug\net8.0-windows\SocketPictureClient.exe
+E:\Projects\practice\SocketPicture\SocketPictureClient\bin\Debug\net8.0-windows\SocketPictureClient.deps.json
+E:\Projects\practice\SocketPicture\SocketPictureClient\bin\Debug\net8.0-windows\SocketPictureClient.runtimeconfig.json
+E:\Projects\practice\SocketPicture\SocketPictureClient\bin\Debug\net8.0-windows\SocketPictureClient.dll
+E:\Projects\practice\SocketPicture\SocketPictureClient\bin\Debug\net8.0-windows\SocketPictureClient.pdb
+E:\Projects\practice\SocketPicture\SocketPictureClient\obj\Debug\net8.0-windows\SocketPictureClient.ClientForm.resources
+E:\Projects\practice\SocketPicture\SocketPictureClient\obj\Debug\net8.0-windows\SocketPictureClient.csproj.GenerateResource.cache
+E:\Projects\practice\SocketPicture\SocketPictureClient\obj\Debug\net8.0-windows\SocketPictureClient.GeneratedMSBuildEditorConfig.editorconfig
+E:\Projects\practice\SocketPicture\SocketPictureClient\obj\Debug\net8.0-windows\SocketPictureClient.AssemblyInfoInputs.cache
+E:\Projects\practice\SocketPicture\SocketPictureClient\obj\Debug\net8.0-windows\SocketPictureClient.AssemblyInfo.cs
+E:\Projects\practice\SocketPicture\SocketPictureClient\obj\Debug\net8.0-windows\SocketPictureClient.csproj.CoreCompileInputs.cache
+E:\Projects\practice\SocketPicture\SocketPictureClient\obj\Debug\net8.0-windows\SocketPictureClient.dll
+E:\Projects\practice\SocketPicture\SocketPictureClient\obj\Debug\net8.0-windows\refint\SocketPictureClient.dll
+E:\Projects\practice\SocketPicture\SocketPictureClient\obj\Debug\net8.0-windows\SocketPictureClient.pdb
+E:\Projects\practice\SocketPicture\SocketPictureClient\obj\Debug\net8.0-windows\SocketPictureClient.genruntimeconfig.cache
+E:\Projects\practice\SocketPicture\SocketPictureClient\obj\Debug\net8.0-windows\ref\SocketPictureClient.dll

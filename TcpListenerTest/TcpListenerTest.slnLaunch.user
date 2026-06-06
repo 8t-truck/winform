@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "새 프로필",
+    "Projects": [
+      {
+        "Path": "TcpListenerTest\\TcpListenerTest.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "TcpClinetTest\\TcpClinetTest.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

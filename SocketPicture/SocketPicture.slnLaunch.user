@@ -1,0 +1,16 @@
+[
+  {
+    "Name": "새 프로필",
+    "Projects": [
+      {
+        "Path": "SocketPictureClient\\SocketPictureClient.csproj",
+        "Action": "Start",
+        "DebugTarget": "SocketPictureClient"
+      },
+      {
+        "Path": "SocketPicture\\SocketPictureServer.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]
